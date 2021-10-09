@@ -1,0 +1,17 @@
+/* GLOBAL STYLING */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* HERO SECTION */
+
+#hero-image {
+  background-image: url("assets/hero-image.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 90vh;
+}
+
+.custom-button {
+  border-radius: 34px;
+}
