@@ -33,10 +33,14 @@
               type="button"
               class="btn btn-outline-dark bg-light custom-button"
             >
-              Purchase a Copy
+              <a
+                href="https://www.jblearning.com/catalog/productdetails/9781284153828"
+                class="link-dark"
+                >Purchase a Copy</a
+              >
             </button>
             <button type="button" class="btn btn-dark custom-button">
-              Contact Us
+              <a class="link-light" href="#contact">Contact Us</a>
             </button>
           </div>
         </div>
@@ -235,11 +239,11 @@
 
     <!--Call To Action Section-->
     <section id="cta-bg" class="my-5">
-      <div class="container-sm">
-        <div class="row justify-content-center">
+      <div class="container-sm h-100">
+        <div class="row justify-content-center align-items-center h-100">
           <div class="col-sm-6 text-center">
             <h1 class="h1 mt-5 fw-bold text-white text-center">
-              An essential resource to have on hand.
+              An essential resource to have on hand
             </h1>
             <p class="text-white text-center">
               Make sure to order your copy today. We also offer group deals and
@@ -256,7 +260,80 @@
 
     <!--Contact Section-->
 
-    <!--End of Contact Section-->
+    <section>
+      <div class="container-sm">
+        <div class="row gap-5 justify-content-center">
+          <div class="col-sm-4">
+            <h1 id="contact" class="h1 mt-5 mb-2 fw-bold">Contact</h1>
+            <!--Form-->
+            <form>
+              <label class="mb-2" for="name">Name</label>
+              <input
+                name="formfields[name]"
+                id="name"
+                class="
+                  form-control
+                  border-top-1 border-left-1 border-right-1
+                  mb-3
+                  bg-light bg-gradient
+                "
+                placeholder="John Doe"
+                type="text"
+                value=""
+                required="required"
+                data-error="Please Enter a Username"
+              />
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control bg-light bg-gradient"
+                  id="email"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control bg-light bg-gradient"
+                  id="message"
+                  rows="3"
+                ></textarea>
+              </div>
+
+              <div class="col d-flex justify-content-end">
+                <button class="btn btn-danger" type="submit">
+                  Send Message
+                </button>
+              </div>
+            </form>
+            <!-- End of Form-->
+          </div>
+          <!--End of Contact Section-->
+
+          <!--Social Media Section-->
+          <div class="col-sm-4">
+            <h1 class="h1 mt-5 mb-5 fw-bold">Connect</h1>
+            <img
+              class="mb-5"
+              src="assets/facebook-logo.svg"
+              alt="Facebook Logo, click for link."
+            />
+            <img
+              class="mb-5"
+              src="assets/Instagram.svg"
+              alt="Facebook Logo, click for link."
+            />
+            <img
+              class="mb-5"
+              src="assets/Twitter.svg"
+              alt="Facebook Logo, click for link."
+            />
+          </div>
+          <!--End of Social Media Section-->
+        </div>
+      </div>
+    </section>
 
     <!--Bootstrap Javascript Bundle-->
     <script
