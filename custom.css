@@ -26,11 +26,9 @@ a:hover {
 
 /* DIVIDER SECTION */
 
-#book-image-divider {
-  background-image: url("assets/book-image.jpg");
-  background-size: repeat;
-  background-position: center center;
-  height: 30vh;
+.height {
+  width: 100%;
+  height: 100%;
 }
 
 /* CTA SECTION */
