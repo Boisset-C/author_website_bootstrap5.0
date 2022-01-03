@@ -293,7 +293,14 @@
           <div class="col-sm-4">
             <h1 id="contact" class="h1 mt-5 mb-2 fw-bold">Contact</h1>
             <!--Form-->
-            <form>
+            <form 
+            name="contact-form"
+            method="POST"
+            data-netlify="true"
+            netlify
+            netlify-honeypot="bot-field"
+            action="/"
+            >
               <label class="mb-2" for="name">Name</label>
               <input
                 name="formfields[name]"
