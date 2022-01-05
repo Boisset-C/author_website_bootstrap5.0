@@ -297,13 +297,12 @@
             name="contact-form"
             method="POST"
             data-netlify="true"
-            netlify
             netlify-honeypot="bot-field"
             action="/"
             >
               <label class="mb-2" for="name">Name</label>
               <input
-                name="formfields[name]"
+                name="name"
                 id="name"
                 class="
                   form-control
@@ -320,6 +319,7 @@
               <div class="mb-3">
                 <label for="email" class="form-label">Email address</label>
                 <input
+                  name="email"
                   type="email"
                   class="form-control bg-light bg-gradient"
                   id="email"
@@ -329,6 +329,7 @@
               <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
                 <textarea
+                  name="message"
                   class="form-control bg-light bg-gradient"
                   id="message"
                   rows="3"
